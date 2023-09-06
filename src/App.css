@@ -1,0 +1,168 @@
+body {
+  background-color: rgb(20, 19, 19);
+  color: aliceblue;
+ 
+
+}
+@font-face {
+  font-family: et;
+  src: url('./assets/Chiret-Regular.ttf');
+}
+
+body {
+  font-family: et;
+}
+
+.no {
+display: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: #343434;
+  
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(30, 27, 27);
+}
+.containernav{
+  font-family: cursive;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(31, 31, 31);
+  padding: 20px;
+  width: 100vw;
+  height: 5vh;
+ 
+  box-shadow: 1px 1px 3px rgb(103, 103, 238,.5) ;
+}
+
+.containernav p span{ 
+ 
+  color: rgb(103, 103, 238);
+  font-size: .8rem;
+  font-weight: 800;
+  
+  letter-spacing: 0px;
+} 
+.containernav p{ 
+
+  letter-spacing: -2px;
+  font-weight: 800;
+  font-size: 1.8rem;
+  color: rgb(176, 120, 240);
+}
+.al {
+  margin-bottom: 5px;
+  padding: 8px;
+  transition: .3s;
+  cursor: pointer;
+  
+}
+.l.title {
+  color: rgb(193, 141, 253);
+   font-size: 1.8rem;
+  
+   font-weight: 700;
+}
+
+.al:hover {
+  background-color: rgb(21, 21, 21);
+
+}
+input:focus {
+  outline: none;
+  border: 1px rgb(176, 120, 240) solid;
+}
+.by {
+  position: fixed;
+  bottom: 0;
+  font-family: Roboto;
+}
+
+input {
+  font-family: et;
+  background-color: rgb(103, 103, 238);
+  border-radius: 8px;
+  color: white;
+  outline: none;
+  padding: 4px;
+
+  border: 1px rgb(35, 35, 35) solid;
+}
+form{
+  position: relative;
+}
+
+.pre {
+  background-color: rgb(30, 27, 27);
+  margin-top: 5vh;
+  min-height: fit-content;
+max-height: 70vh;
+font-family: et;
+width: 15vw;
+box-shadow: 2px 4px 6px rgb(103, 103, 238,.7) ;
+display: block;
+ position: absolute;
+  overflow-y: scroll;
+  padding: 10px;
+}
+.l{
+  font-family: et;
+  box-shadow: 2px 4px 6px rgb(103, 103, 238,.7) ;
+  width: 40vh;
+  margin-left: 100px;
+  margin-top: 30px;
+  background-color: rgb(30, 27, 27);
+  overflow-y: scroll;
+  max-height:60vh;
+ 
+  padding: 60px;
+}
+
+@media screen and (max-width: 767px){
+ 
+  .containernav {
+    width: 90vw;
+   
+  }
+  .allp {
+  
+    padding: 20px 8px;
+   
+    width: 65%;
+   
+    height: 100%;
+  }
+
+  .pre{
+    right: 0;
+    height: 30vh;
+   width: 50vw;
+
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .l{
+   margin-top: 40vh;
+   height: 38vh;
+
+   display: flex;
+
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 0;
+   width: 70vw;
+   margin-left: 0;
+  }
+  
+  
+}
